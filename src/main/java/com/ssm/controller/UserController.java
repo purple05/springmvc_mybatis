@@ -16,6 +16,8 @@ public class UserController {
 	@RequestMapping("/index.do")
 	public void index(){
 		User user = us.findByName("test2");
+		User user = us.findByName("test2");
+		User user = us.findByName("test2");
 		System.out.println(user);
 	}
 }
