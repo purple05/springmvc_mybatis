@@ -12,7 +12,7 @@ public class TestCase {
 	public void test(){
 		ApplicationContext ac = new ClassPathXmlApplicationContext("springmvc.xml");
 		UserDAO udao = ac.getBean("udao",UserDAO.class);
-		User user = new User(57,"test3",25,"男","广西",5000);
+		User user = new User(57,"test3",25,"鐢�,","骞胯タ",5000);
 		udao.save(user);
 	}
 	@Test
