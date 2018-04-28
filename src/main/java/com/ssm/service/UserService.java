@@ -13,6 +13,8 @@ public class UserService {
 	private UserDAO udao;
 	
 	public User findByName(String sname){
+		System.out.println("hello word");
 		return udao.findByName(sname);
+		
 	}
 }
